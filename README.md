@@ -5,8 +5,8 @@ author's name and the current local time and date.
 
 Dependencies
 ============
- *(gcc-arm-linux-gnueabi)[http://packages.ubuntu.com/search?keywords=gcc-arm-linux-gnueabi]
- *(qemu-user-static)[http://packages.ubuntu.com/search?keywords=qemu-user-static]
+* [gcc-arm-linux-gnueabi](http://packages.ubuntu.com/search?keywords=gcc-arm-linux-gnueabi)
+* [qemu-user-static](http://packages.ubuntu.com/search?keywords=qemu-user-static)
 
 Install Dependencies
 ====================
