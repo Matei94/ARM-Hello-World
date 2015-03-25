@@ -3,13 +3,16 @@ CFLAGS=-static
 EMU=qemu-arm-static
 EXEC_NAME=helloworld.bin
 
-.PHONY: build run clean
+.PHONY: build emu run clean
 
 build: helloworld.c
 	$(CC) $(CFLAGS) -o $(EXEC_NAME) helloworld.c
 
-run: build
+emu: build
 	$(EMU) ./$(EXEC_NAME)
+
+run: build
+	./$(EXEC_NAME)
 
 clean:
 	rm -rf $(EXEC_NAME)
