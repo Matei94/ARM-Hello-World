@@ -1,7 +1,7 @@
 ARM Linux hello world
 =====================
 Statically linked ARM Linux "hello world" style executable that prints out the
-author's name and the current local time and date.
+author's name and the current local time and date
 
 Dependencies
 ============
