@@ -17,11 +17,11 @@ sudo apt-get install gcc-arm-linux-gnueabi qemu-user-static
 Build
 =====
 ```
-	make build
+make build
 ```
 
 Run
 ===
 ```
-	make run
+make run
 ```
