@@ -25,3 +25,9 @@ Run
 ```
 make run
 ```
+
+Test
+====
+```
+make test
+```
